@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../bower_components/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="../bower_components/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../bower_components/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+	
+	<div class="container">
+
+	</div>
+
+	<script type="text/javascript" src="../bower_components/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="../bower_components/bootstrap/dist/bootstrap.min.js"></script>
+</body>
+</html>
