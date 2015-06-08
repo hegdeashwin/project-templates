@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../bower_components/font-awesome/css/font-awesome.min.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span></button> <a class="navbar-brand" href="#">Gits local web</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="#">Dashboard</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">System</a>
+							<ul class="dropdown-menu" role="menu">
+								<li>
+									<a href="#" target="_blank">Settings</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Help</a>
+							<ul class="dropdown-menu" role="menu">
+								<li>
+									<a href="https://github.com/hegdeashwin/gits-local-web" target="_blank">Github Home Page</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">Gitbook Page</a>
+								</li>
+								<li>
+									<a href="https://github.com/hegdeashwin/gits-local-web/releases" target="_blank">Release Page</a>
+								</li>
+								<li>
+									<a href="https://github.com/hegdeashwin/gits-local-web/milestones" target="_blank">Milestones</a>
+								</li>
+								<li>
+									<a href="https://github.com/hegdeashwin/gits-local-web/issues" target="_blank">Issues Page</a>
+								</li>
+								<li>
+									<a href="https://github.com/hegdeashwin/gits-local-web/pulls" target="_blank">Open Pull Requests</a>
+								</li>
+								<li>
+									<a href="https://github.com/hegdeashwin/gits-local-web" target="_blank">About Gits local web</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+
+			<div class="alert alert-success alert-dismissible fade in" role="alert">
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times-circle-o"></i></span></button>
+				<p>
+					New repository created successfully at the location.
+				</p>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							Create a new repository
+						</div>
+						<div class="panel-body">
+							<form>
+								<div class="form-group">
+									<label for="createRepo">Repository Name</label> <input type="email" class="form-control" id="createRepo" placeholder="Enter new repository name">
+								</div>
+								<div class="form-group">
+									<label for="repoPath">Repository Path</label> <input type="text" class="form-control" id="repoPath" placeholder="Enter repository path">
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox"> Initialize this repository with a README</label>
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox"> Initialize this repository with a .gitignore</label>
+								</div>
+							</form>
+						</div>
+						<div class="panel-footer">
+							<button type="submit" class="btn btn-success">Create</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							Open a existing repository
+						</div>
+						<div class="panel-body">
+							<form>
+								<div class="form-group">
+									<label for="repoPath">Repository Path</label> <input type="text" class="form-control" id="repoPath" placeholder="Enter repository path">
+								</div>								
+							</form>
+						</div>
+						<div class="panel-footer">
+							<button type="submit" class="btn btn-success">Open</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><script type="text/javascript" src="../bower_components/jquery/jquery.min.js">
+</script><script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js">
+</script>
+	</body>
+</html>
